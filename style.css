@@ -3,6 +3,9 @@ body {
     padding: 0;
     border: 0;
     overflow: hidden; /* prevents scrolling */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
 }
 
 .image_container {
@@ -10,7 +13,21 @@ body {
     height: 100vh;
 }
 
+.top {
+    background-color: rgb(230, 230, 230);
+    width: auto;
+    padding-left: 30px;
+    padding-right: 160px;
+    max-height: 33vh;
+    flex: 0 1 auto;
+}
+
+.headlines {
+    font-size: 3em;
+    font-weight: bold;
+}
+
 img {
     height: 100vh;
-    width: auto;
+    width: 33vw;
 }
