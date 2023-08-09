@@ -16,6 +16,7 @@ body {
 .image_container {
     width: 33vw;
     height: 100vh;
+    position: relative;
 }
 
 .top {
@@ -23,14 +24,14 @@ body {
     width: auto;
     padding-left: 30px;
     padding-right: 160px;
-    height: 33vh;
+    height: 33.33vh;
     flex: 0 1 auto;
 }
 
 .middle {
     width: auto;
     padding-left: 30px;
-    height: 33vh;
+    height: 33.33vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -48,12 +49,26 @@ form {
     background-color: rgb(230, 230, 230);
     width: auto;
     padding-left: 30px;
-    height: 33vh;
+    height: 33.33vh;
 }
 
 .headlines {
     font-size: 3em;
     font-weight: bold;
+}
+
+.logo {
+    width: auto;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin-bottom: 66.66vh;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 img {
@@ -64,4 +79,22 @@ img {
 input,
 label {
     display: block;
+}
+
+#odin {
+    max-width: 15%; /* Set the maximum width of the image to 15% of its container */
+    max-height: 80%; /* Set the maximum height of the image to 80% of its container */
+    display: block; /* Prevent any vertical spacing issues */
+    margin-right: 20px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Norse-Bold.otf);
+  }
+
+span {
+    font-family: myFirstFont;
+    color: white;
+    font-size: 7em;
 }
