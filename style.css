@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden; /* prevents scrolling */
+}
+
+.image_container {
+    width: 33vw;
+    height: 100vh;
+}
+
+img {
+    height: 100vh;
+    width: auto;
+}
