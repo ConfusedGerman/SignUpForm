@@ -22,7 +22,7 @@ body {
 .top {
     background-color: rgb(230, 230, 230);
     width: auto;
-    padding-left: 30px;
+    padding-left: 40px;
     padding-right: 160px;
     height: 33.33vh;
     flex: 0 1 auto;
@@ -30,7 +30,7 @@ body {
 
 .middle {
     width: auto;
-    padding-left: 30px;
+    padding-left: 40px;
     height: 33.33vh;
     display: flex;
     flex-direction: column;
@@ -48,8 +48,14 @@ form {
 .bottom {
     background-color: rgb(230, 230, 230);
     width: auto;
-    padding-left: 30px;
+    padding-left: 40px;
+    padding-top: 30px;
     height: 33.33vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 1.5em;
 }
 
 .headlines {
@@ -93,8 +99,17 @@ label {
     src: url(Norse-Bold.otf);
   }
 
-span {
+img + span {
     font-family: myFirstFont;
     color: white;
     font-size: 7em;
+}
+
+button[type="submit"] {
+    border: none;
+    border-radius: 12px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #596D48;
+    font-size: 1.2em;
 }
