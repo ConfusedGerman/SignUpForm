@@ -124,3 +124,13 @@ input {
   font-size: 1.4em;
   border-radius: 5px;
 }
+
+input:focus {
+    outline: none; /* Remove the default focus outline */
+    border-color: blue;
+    box-shadow: 0 0 5px grey; /* Apply a subtle box-shadow for focus */
+}
+
+input:invalid {
+    border: 1px solid red;
+}
