@@ -64,6 +64,13 @@ form {
     font-weight: bold;
 }
 
+/* Media query for smaller screens */
+@media (max-width: 1400px) {
+    .headlines {
+        font-size: 2em; /* Adjust font size for smaller screens */
+    }
+}
+
 .logo {
     width: auto;
     height: 200px;
