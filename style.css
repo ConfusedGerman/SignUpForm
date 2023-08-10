@@ -121,4 +121,6 @@ input {
   margin: 0;
   box-sizing: border-box;
   border: 1px solid gainsboro;
+  font-size: 1.4em;
+  border-radius: 5px;
 }
