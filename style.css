@@ -121,8 +121,9 @@ input {
   margin: 0;
   box-sizing: border-box;
   border: 1px solid gainsboro;
-  font-size: 1.4em;
+  font-size: 1.2em;
   border-radius: 5px;
+  padding: 5px;
 }
 
 input:focus {
