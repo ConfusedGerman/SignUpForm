@@ -69,6 +69,10 @@ form {
     .headlines {
         font-size: 2em; /* Adjust font size for smaller screens */
     }
+
+    input {
+        width: 10px;
+    }
 }
 
 .logo {
